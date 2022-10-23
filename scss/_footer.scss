@@ -1,0 +1,47 @@
+/* pie-pagina */
+.pie-pagina {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
+    .box-01 figure a img {
+        width: 236px;
+        height: 236px;
+    }
+    .grupo-01 {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 0px 0px;
+    }
+
+    .box-01 p {
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+
+    .box-01 h2 {
+        color: white;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .redes a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: white;
+        text-align: center;
+        transition: all 100ms ease;
+    }
+
+    .redes a:hover {
+        color: #00acee;
+    }
+}
+/* fin de pie-pagina */

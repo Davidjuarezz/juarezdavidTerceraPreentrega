@@ -1,0 +1,448 @@
+body {
+  background-color: #0a0a0a !important;
+  width: 100%; }
+
+/* header */
+.header {
+  width: 100%;
+  height: 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between; }
+  .header div img {
+    width: 185px;
+    height: 180px; }
+  .header .navbar-nav a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #231f20;
+    transition: all 100ms ease; }
+  .header .navbar-nav a:hover {
+    color: #f9a21e;
+    border-bottom: 1px solid whitesmoke; }
+  .header .container-fluid button {
+    background-color: whitesmoke;
+    color: whitesmoke; }
+
+/* fin de header */
+/* pie-pagina */
+.pie-pagina {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly; }
+  .pie-pagina .box-01 figure a img {
+    width: 236px;
+    height: 236px; }
+  .pie-pagina .grupo-01 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 0px 0px; }
+  .pie-pagina .box-01 p {
+    color: #efefef;
+    margin-bottom: 10px; }
+  .pie-pagina .box-01 h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px; }
+  .pie-pagina .redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    text-align: center;
+    transition: all 100ms ease; }
+  .pie-pagina .redes a:hover {
+    color: #00acee; }
+
+/* fin de pie-pagina */
+/* form de contacto.html */
+.allitems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; }
+  .allitems .form {
+    background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
+    width: 80%;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: initial;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    color: white;
+    text-shadow: 1px 1px 4px #231f20; }
+  .allitems .form-container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%; }
+    .allitems .form-container .form-tittle {
+      text-align: center;
+      font-size: 1.9rem;
+      margin-bottom: .4em; }
+    .allitems .form-container .form_input {
+      font-family: inherit;
+      font-size: 1rem;
+      padding: .8em 1em;
+      outline: none;
+      border: none;
+      border: 1px solid #bbb0b0;
+      border-radius: 0.2em; }
+    .allitems .form-container .form_input--message {
+      resize: none;
+      padding: 1.8em 1em;
+      margin-bottom: 1.5em; }
+    .allitems .form-container .form_cta {
+      font-family: inherit;
+      background-color: #089fe0;
+      color: #fff;
+      border: none;
+      font-weight: 300;
+      padding: 1.7em 0;
+      border-radius: .2em;
+      cursor: pointer;
+      font-weight: 400; }
+
+/* cierre form contacto.html */
+/* wrapper */
+.carousel-inner div img {
+  width: 100%;
+  height: 576px; }
+
+.carousel-caption h3 {
+  text-shadow: 1px 1px 4px #231f20; }
+
+.carousel-caption h5 {
+  text-shadow: 1px 1px 4px #231f20; }
+
+/* fin de wrapper */
+/* low wrapper */
+.low-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  .low-wrapper h3 {
+    text-shadow: 1px 1px 4px #231f20;
+    color: #efefef;
+    font-style: normal;
+    font-size: 35px;
+    padding: 30px;
+    border: 6px solid #f9a21e;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center;
+    outline: none; }
+  .low-wrapper figure img {
+    border-radius: 15%;
+    height: 283px;
+    width: 444px;
+    max-width: 100%;
+    margin: 1em;
+    padding: 1em;
+    float: center; }
+  .low-wrapper figure figcaption a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 4px #231f20;
+    transition: all 100ms ease; }
+  .low-wrapper figure figcaption a:hover {
+    color: #f9a21e; }
+
+.nuestrosdestinos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+
+/* fin de low-wrapper */
+/* wrapper02 */
+.wrapper02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 250px;
+  background-image: url(https://thumbs.dreamstime.com/b/panor%C3%A1mico-de-la-costa-cerca-ciudad-antofagasta-en-chile-123122583.jpg);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: initial; }
+  .wrapper02 h2 {
+    text-shadow: 1px 1px 4px #231f20;
+    color: white;
+    font-size: 35px;
+    font-weight: bold; }
+
+/* cierre wrapper02 */
+/* low-wrapper02 */
+.argentina {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "argh3 argh3 argh3 argh3" "calafate angostura ushuaia bariloche";
+  justify-content: center; }
+  .argentina h3 {
+    text-shadow: 1px 1px 4px #231f20;
+    color: #efefef;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    padding: 30px;
+    border-radius: 15px;
+    border-color: #f9a21e;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center; }
+  .argentina div figure img {
+    width: 250px;
+    height: 250px;
+    border: transparent 1px solid;
+    border-radius: 50%; }
+  .argentina div figure figcaption {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 4px #231f20;
+    transition: all 100ms ease;
+    justify-content: center;
+    text-align: center; }
+  .argentina .argh3 {
+    width: 100%;
+    grid-area: argh3; }
+  .argentina .calafate {
+    width: 100%;
+    grid-area: calafate; }
+  .argentina .angostura {
+    width: 100%;
+    grid-area: angostura; }
+  .argentina .ushuaia {
+    width: 100%;
+    grid-area: ushuaia; }
+  .argentina .bariloche {
+    width: 100%;
+    grid-area: bariloche; }
+
+.chile {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "chileh3 chileh3 chileh3 chileh3" "varas montt natales arenas";
+  justify-content: center; }
+  .chile h3 {
+    text-shadow: 1px 1px 4px #231f20;
+    color: #efefef;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    padding: 30px;
+    border-radius: 15px;
+    border-color: #f9a21e;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center; }
+  .chile div figure figcaption {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 4px #231f20;
+    transition: all 100ms ease;
+    justify-content: center;
+    text-align: center; }
+  .chile div figure img {
+    width: 250px;
+    height: 250px;
+    border: transparent 1px solid;
+    border-radius: 50%; }
+  .chile .chileh3 {
+    width: 100%;
+    grid-area: chileh3; }
+  .chile .varas {
+    width: 100%;
+    grid-area: varas; }
+  .chile .montt {
+    width: 100%;
+    grid-area: montt; }
+  .chile .natales {
+    width: 100%;
+    grid-area: natales; }
+  .chile .arenas {
+    width: 100%;
+    grid-area: arenas; }
+
+/* cierre low-wrapper02 */
+/* empresas */
+.empresas {
+  width: 100%; }
+  .empresas .row {
+    margin: 0px; }
+  .empresas .row h3 {
+    border: 6px solid #f9a21e;
+    text-shadow: 1px 1px 4px #231f20;
+    color: white;
+    border-radius: 15px;
+    font-size: 38px;
+    padding: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center;
+    margin: 0px; }
+  .empresas h2 {
+    color: white;
+    text-shadow: 1px 1px 4px #231f20; }
+  .empresas p {
+    color: white; }
+
+.swbutton, .cmbutton, .rmbutton {
+  padding: 10px 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: #0a0a0a;
+  border: none; }
+  .swbutton a, .cmbutton a, .rmbutton a {
+    text-decoration: none;
+    color: white; }
+  .swbutton a:hover, .cmbutton a:hover, .rmbutton a:hover {
+    color: #f9a21e; }
+
+.transportes {
+  width: 100%; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px; }
+  .row div h1 {
+    border: 6px solid #f9a21e;
+    border-radius: 15px;
+    font-size: 38px;
+    padding: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center; }
+  .row img {
+    width: 288px;
+    height: 288px;
+    justify-content: center; }
+
+/* cierre empresas.html */
+/* quienes-somos.html */
+.all-info {
+  width: 100%;
+  height: 100%; }
+  .all-info .text-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .all-info .text-01 h2 {
+      text-shadow: 1px 1px 4px #231f20;
+      color: white; }
+    .all-info .text-01 p {
+      max-width: 33.3333333333%;
+      color: white; }
+  .all-info .mvv {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; }
+    .all-info .mvv div {
+      max-width: 33.3333333333%; }
+
+.medios-pago {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center; }
+
+.medios-pago00 h2 {
+  text-shadow: 1px 1px 4px #231f20;
+  color: #9c1618; }
+
+.medios-pago01 div img {
+  width: 150px;
+  height: 150px; }
+
+/* contacto */
+.contacto h3 {
+  text-shadow: 1px 1px 4px #231f20;
+  color: #efefef;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 38px;
+  padding: 30px;
+  border-radius: 15px;
+  border-color: #f9a21e;
+  border-left: 0;
+  border-right: 0;
+  border-style: groove;
+  text-align: center; }
+
+.list-group li {
+  background-color: #0a0a0a;
+  color: white; }
+
+/* fin de contacto */
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .carousel-inner div img {
+    height: 220px; }
+  .nuestrosdestinos {
+    flex-direction: column; }
+    .nuestrosdestinos figure img {
+      margin: 0px; }
+  .pie-pagina .grupo-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .argentina {
+    display: flex;
+    flex-direction: column; }
+  .chile {
+    display: flex;
+    flex-direction: column; }
+  .mq1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center; }
+  .all-info .text-01 p {
+    max-width: 66%;
+    color: white; }
+  .all-info .mvv {
+    justify-content: center;
+    align-items: center; }
+    .all-info .mvv div {
+      max-width: 66%; }
+  .swbutton, .cmbutton, .rmbutton {
+    background-color: #f9a21e;
+    border: solid white; }
+    .swbutton a, .cmbutton a, .rmbutton a {
+      color: black; }
+  .allitems {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
