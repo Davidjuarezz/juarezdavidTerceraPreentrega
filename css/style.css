@@ -416,7 +416,7 @@ body {
 .list-group li {
   background-color: #0a0a0a;
   color: white; }
-  .list-group li img {
+  .list-group li .fw-bold img {
     width: 235px;
     height: 235px;
     border: #f9a21e solid; }

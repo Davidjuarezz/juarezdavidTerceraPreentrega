@@ -423,13 +423,14 @@ body {
     li {
         background-color: #0a0a0a;
         color: white;
-        .fw-bold {}
+        .fw-bold {
             img {
                 width: 235px;
                 height: 235px;
                 border: $color-primario solid;
             }
         }
+    }
 }
 /* fin de contacto */
 
