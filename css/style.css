@@ -67,18 +67,19 @@ body {
 .allitems {
   display: flex;
   flex-direction: row;
-  align-items: flex-start; }
+  justify-content: space-around; }
   .allitems .form {
     background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
-    width: 80%;
+    width: 100%;
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: initial;
-    margin: auto;
+    margin-left: 33px;
+    margin-right: 33px;
     width: 100%;
-    max-width: 800px;
+    max-width: 550px;
     border-radius: 1em;
-    padding: 3.5em 1.5em;
+    padding: 3.5em 24px;
     color: white;
     text-shadow: 1px 1px 4px #231f20; }
   .allitems .form-container {
@@ -399,19 +400,25 @@ body {
     height: 150px; }
 
 /* contacto */
-.contacto h3 {
-  text-shadow: 1px 1px 4px #231f20;
-  color: #efefef;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-size: 38px;
-  padding: 30px;
-  border-radius: 15px;
-  border-color: #f9a21e;
-  border-left: 0;
-  border-right: 0;
-  border-style: groove;
-  text-align: center; }
+.contacto {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .contacto h3 {
+    width: 100%;
+    text-shadow: 1px 1px 4px #231f20;
+    color: #efefef;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 38px;
+    padding: 30px;
+    border-radius: 15px;
+    border-color: #f9a21e;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    text-align: center; }
 
 .list-group li {
   background-color: #0a0a0a;

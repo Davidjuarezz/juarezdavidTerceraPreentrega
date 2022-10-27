@@ -1,21 +1,21 @@
 /* form de contacto.html */
 .allitems {
-
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-around;
 
     .form {
         background-image: url(https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/blog/argentina_bestintravel2019_nido_huebl_shutterstock_0.jpg?itok=XATeMWcp);
-        width: 80%;
+        width: 100%;
         background-repeat: no-repeat;
         background-attachment: inherit;
         background-size: initial;
-        margin: auto; 
+        margin-left: 33px;
+        margin-right: 33px;
         width: 100%;
-        max-width: 800px;
+        max-width: 550px;
         border-radius: 1em;
-        padding: 3.5em 1.5em;
+        padding: 3.5em 24px;
         color: white;
         text-shadow: 1px 1px 4px #231f20;
     }
