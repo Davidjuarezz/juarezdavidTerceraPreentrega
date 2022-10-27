@@ -328,40 +328,56 @@ body {
 .all-info {
     width: 100%;
     height: 100%;
-    .text-01 {
+
+    .info-01 {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-        h2 {
-            text-shadow: $shadowtext;
-            color: white;
-        }
-
-        p {
-            max-width: 33.3333333333%;
-            color: white;
+        flex-direction: row;
+        .text-01 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h2 {
+                text-shadow: $shadowtext;
+                color: white;
+            }
+    
+            p {
+                max-width: 88.8888888888%;
+                color: white;
+            }
         }
     }
 
-    .mvv {
-        color: white;
+    .info-02 {
         display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        
-        div {
-            max-width: 33.3333333333%;
+        flex-direction: row;
+        justify-content: space-between;
+        .text-02 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h3 {
+                text-shadow: $shadowtext;
+                color: white;
+            }
+    
+            p {
+                max-width: 44.4444444444%;
+                color: white;
+            }
         }
+
     }
 }
 
 .medios-pago {
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-items: center;
     text-align: center;
 }
@@ -374,6 +390,9 @@ body {
 }
 
 .medios-pago01 {
+    display: flex;
+    padding: 15px;
+    padding-top: 0px;
     div {
         img {
             width: 150px;
@@ -404,7 +423,13 @@ body {
     li {
         background-color: #0a0a0a;
         color: white;
-    }
+        .fw-bold {}
+            img {
+                width: 235px;
+                height: 235px;
+                border: $color-primario solid;
+            }
+        }
 }
 /* fin de contacto */
 

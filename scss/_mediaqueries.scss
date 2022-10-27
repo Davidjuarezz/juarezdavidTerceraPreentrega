@@ -47,20 +47,43 @@
     }
 
     .all-info {
-        .text-01 {
-            p {
-                max-width: 66%;
-                color: white;
+
+        .info-01 {
+            flex-direction: column;
+            .text-01 {
+                h2 {
+                    text-shadow: $shadowtext;
+                    color: white;
+                }
+
+                p {
+                    max-width: 66%;
+                    color: white;
+                }
             }
         }
 
-        .mvv {
-            justify-content: center;
-            align-items: center;
-            div {
-                max-width: 66%;
+        .info-02 {
+            flex-direction: column;
+            .text-02 {
+                h3 {
+                    text-shadow: $shadowtext;
+                    color: white;
+                }
+                p {
+                    max-width: 66%;
+                    color: white;
+                }
             }
         }
+    }
+
+    .medios-pago {
+        flex-direction: column;
+    }
+
+    .medios-pago01 {
+        flex-direction: column;
     }
 
     .swbutton {
